@@ -1,2 +1,4 @@
 #!/bin/bash
-printf '%x\n' 10
+echo -n '10> '
+read number
+printf '%x\n'
